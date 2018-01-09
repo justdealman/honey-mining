@@ -162,6 +162,8 @@ $(function() {
 		$('.welcome').height($(window).height());
 	}
 	
+	$('.video-bg').addClass('is-visible');
+	
 	function startApp() {
 		detectDevice();
 		if ( justSwitched ) {
